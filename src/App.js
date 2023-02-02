@@ -17,9 +17,13 @@ function App() {
     <div className="App">
       <header className="App-header">
         <p>Hello World! I am Miriam. This is a simple counting app.</p>
-        <p>Count: {count}</p>
-        <button onClick={increment}>+</button>
-        <button onClick={decrement}>-</button>
+        <p data-testid="counter-number">{count}</p>
+        <button onClick={increment} data-testid="button-increase">
+          +
+        </button>
+        <button onClick={decrement} data-testid="button-decrease">
+          -
+        </button>
       </header>
     </div>
   );
