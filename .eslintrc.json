@@ -5,7 +5,8 @@
     }
   },
   "plugins": ["prettier"],
-  "extends": ["plugin:react/recommended", "plugin:prettier/recommended"],
+  "extends": ["plugin:react/recommended", "plugin:prettier/recommended",  "react-app",
+  "react-app/jest"],
   "parserOptions": {
     "ecmaVersion": 2018,
     "sourceType": "module"
